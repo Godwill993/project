@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+   
+}
+body{
+   
+    color:antiquewhite;
+}
+img{
+    width: 100%;
+   
+}
+.big-container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.sec{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+p{
+    color: black;
+}
+button{
+    width: 100%;
+    padding: 5px;
+    align-items: flex-end;
+
+}
