@@ -86,6 +86,10 @@ button:active{
     align-items: center;
     justify-content: center;
 }
+.wabut{
+    position: relative;
+}
+
 @media screen and (max-width: 768px) {
     .big-container {
         grid-template-columns: 1fr;
