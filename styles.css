@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+   
+}
+body{
+   
+ background-color: rgba(231, 236, 242, 0.368);
+ padding-bottom: 400px;
+}
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+   
+}
+.big-container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    margin-bottom: 400px;
+    
+    
+}
+.for-line{
+    margin-top: 30px;
+     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+       border-top: 2px solid rgba(0, 0, 0, 0.1);
+     height: 9vh;
+}
+.sec{
+    width: 360px;
+    height: 76vh;
+    margin-left: 300px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(14, 124, 87, 0.263) ;
+   padding-top: 20px;
+    padding-inline: 15px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    min-height: 420px;
+}
+p{
+    color: rgb(36, 42, 48);
+    font-size: smaller;
+}
+button{
+    width:80%;
+    padding: 5px;
+    left: 9%;
+    position: absolute;
+    bottom: 22px;
+    background-color:rgba(255, 166, 0, 0.516) ;
+    border: none;
+    border-radius: 4px;
+    color:black;
+    
+
+}
+h1{
+    display: flex;
+}
+button:hover{
+    background-color: rgba(255, 166, 0, 0.8);
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+button:active{
+    background-color: rgba(7, 114, 25, 0.427);
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.footer{
+    height: 10vh;
+    background-color: rgba(20, 34, 50, 0.368);
+    color: white;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 768px) {
+    .big-container {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+    .sec {
+        width: 90%;
+        margin: 10px auto;
+        min-width: 320px;
+        max-height: 450px;
+    }
+    img {
+        height: 200px;
+    }
+    button {
+        width: 90%;
+        left: 5%;
+        padding-inline: 15px;
+    }
+    
+}
