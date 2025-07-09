@@ -13,9 +13,9 @@ body{
     background-repeat: no-repeat;
      color: antiquewhite; 
     
-    /* background-position: center;
+    background-position: center;
     background-attachment: fixed;
-    font-family: Arial, sans-serif;*/
+    font-family: Arial, sans-serif;
 
  }
  
@@ -217,18 +217,7 @@ h1{
     background-color: rgba(7, 114, 25, 0.427);
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-footer{
-    margin-top: 50px;
-    /* height: 10vh; */
-    background-color: rgba(20, 34, 50, 0.368);
-    color: white;
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    justify-content: center;
-    /* position: fixed; */
-  
-}
+
 .ll{
     background-color:midnightblue ;
     display: flex;
@@ -273,4 +262,19 @@ footer{
         display: none;
     }
     
+}
+
+
+footer{
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    width: 100%;
+    background-color: #ccc;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
