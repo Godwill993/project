@@ -8,14 +8,15 @@
 
 body{
     background-image:url(background-img.jpg);
-    /* b;ackground-size: 150%;
+     background-size: 150%;
     background-position: center;
-    background-repeat: no-repeat */
-    background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+     color: antiquewhite; 
+    
+    /* background-position: center;
     background-attachment: fixed;
-    font-family: Arial, sans-serif;
-     color:antiquewhite;
+    font-family: Arial, sans-serif;*/
+
  }
  
  
@@ -133,9 +134,9 @@ body{
     border-radius: 50%;
   }
   .content {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0; */
   }
   
   .content h1 {
@@ -179,7 +180,7 @@ img{
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color:rgba(14, 124, 87, 0.667) ;
+    background-image: linear-gradient(to bottom, rgba(14, 124, 87, 0.527) , rgba(14, 124, 87, 0.774) );
    padding-top: 20px;
     padding-inline: 15px;
     padding-bottom: 30px;
@@ -216,30 +217,35 @@ h1{
     background-color: rgba(7, 114, 25, 0.427);
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-.footer{
-    height: 10vh;
+footer{
+    margin-top: 50px;
+    /* height: 10vh; */
     background-color: rgba(20, 34, 50, 0.368);
     color: white;
     display: flex;
     gap: 40px;
     align-items: center;
     justify-content: center;
+    /* position: fixed; */
+  
 }
 .ll{
     background-color:midnightblue ;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
    
 }
 .jj{
     color: rgb(174, 164, 164);
 }
 
+
 @media screen and (max-width: 768px) {
     .big-container {
         grid-template-columns: 1fr;
-        margin-left: 0;
+        margin-left: 3px;
     }
     .sec {
         width: 90%;
@@ -254,6 +260,17 @@ h1{
         width: 90%;
         left: 5%;
         padding-inline: 15px;
+    }
+    .footer{
+       
+        bottom: 0;
+        width: 100%;
+    }
+    .cintent{
+        display: inline-block
+    }
+    .help{
+        display: none;
     }
     
 }
