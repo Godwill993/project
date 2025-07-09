@@ -181,7 +181,7 @@ img{
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color:rgba(14, 124, 87, 0.263) ;
+    background-color:rgba(14, 124, 87, 0.667) ;
    padding-top: 20px;
     padding-inline: 15px;
     padding-bottom: 30px;
@@ -193,7 +193,7 @@ p{
     color: rgb(36, 42, 48);
     font-size: smaller;
 }
-button{
+.bbb{
     width:80%;
     padding: 5px;
     left: 9%;
@@ -209,12 +209,12 @@ button{
 h1{
     display: flex;
 }
-button:hover{
+.bbb:hover{
     background-color: rgba(255, 166, 0, 0.8);
     cursor: pointer;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
-button:active{
+.bbb:active{
     background-color: rgba(7, 114, 25, 0.427);
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -227,8 +227,15 @@ button:active{
     align-items: center;
     justify-content: center;
 }
-.wabut{
-    position: relative;
+.ll{
+    background-color:midnightblue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.jj{
+    color: rgb(174, 164, 164);
 }
 
 @media screen and (max-width: 768px) {
