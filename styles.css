@@ -67,3 +67,33 @@ button{
 h1{
     display: flex;
 }
+button:hover{
+    background-color: rgba(255, 166, 0, 0.8);
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+button:active{
+    background-color: rgba(7, 114, 25, 0.427);
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 768px) {
+    .big-container {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+    .sec {
+        width: 90%;
+        margin: 10px auto;
+        min-width: 320px;
+        max-height: 450px;
+    }
+    img {
+        height: 200px;
+    }
+    button {
+        width: 90%;
+        left: 5%;
+        padding-inline: 15px;
+    }
+    
+}
