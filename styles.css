@@ -17,6 +17,7 @@ body{
     background-attachment: fixed;
     font-family: Arial, sans-serif;
 
+
  }
  
  
@@ -174,6 +175,7 @@ img{
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 100px;
     margin-bottom: 400px;
+    margin-left: 40px;
     
     
 }
